@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gsap</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="header">Let's Learn Gsap.</h1>
+
+    <main>
+      <!-- To And From -->
+      <div>
+        <h1 class="sub-header">1. To And From</h1>
+        <br />
+        <hr />
+        <br />
+        <div id="box1">To</div>
+        <div id="box2">From</div>
+      </div>
+      <br />
+      <!-- Rotate, repeate, yoyo and few Advance things -->
+      <div>
+        <h1 class="sub-header">
+          2. Rotate, Repeate, scale, Yoyo and few Advance things
+        </h1>
+        <p>
+          uncomment the 26th line in <i>script.js</i> to understand the infinite
+          repeate.
+        </p>
+        <br />
+        <hr />
+        <br />
+        <div id="box3">To</div>
+      </div>
+
+      <!-- Stagger -->
+      <div style="margin: 30px 0px">
+        <h1 class="sub-header">3. Stagger</h1>
+        <p></p>
+        <br />
+        <hr />
+        <br />
+
+        <div>
+          <h3>with stagger 1</h3>
+          <h3>with stagger 2</h3>
+          <h3>with stagger 3</h3>
+        </div>
+      </div>
+
+      <!-- Timelines -->
+      <div>
+        <h1 class="sub-header">4. Timelines</h1>
+        <p style="padding-top: 20px">
+          if we talk about gsap without <strong>Timeline</strong>, we neeed to
+          say that its totally asyncronus. But when we creat a timeline in our
+          js fille and start to creating the animation with timeline it became
+          syncronus animation. if we use timeline during animation , we dont
+          need to think and waste our time about <strong>delay</strong>.
+        </p>
+        <p></p>
+        <br />
+        <hr />
+        <br />
+        <div>
+          <div id="box4"></div>
+          <div id="box5"></div>
+          <div id="box6"></div>
+        </div>
+      </div>
+      <!-- Practise Test -->
+      <div style="margin-top: 20px">
+        <h1 class="sub-header">5. Lets Make a freaking Navbar</h1>
+        <a href="Navbar.html">Navbar</a>
+      </div>
+    </main>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
