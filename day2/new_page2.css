@@ -24,8 +24,18 @@ body {
     width: 100%;
     background-color: forestgreen;
 }
+#page4 {
+    height: 100vh;
+    width: 100%;
+    background-color: forestgreen;
+}
 
 #page2 h1 {
+    font-size: 40vw;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#page3 h1 {
     font-size: 40vw;
     text-transform: uppercase;
     font-weight: 600;
